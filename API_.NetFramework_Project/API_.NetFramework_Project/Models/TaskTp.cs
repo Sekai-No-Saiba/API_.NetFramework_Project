@@ -6,13 +6,10 @@
         public string? Title { get; set; }
         public bool IsCompleted { get; set; }
     }
+
 }
-
-
-
-
-
-//namespace API_.NetFramework_Project.Models
+    
+    //namespace API_.NetFramework_Project.Models
 
 
 //{

@@ -443,11 +443,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
+      "projectUniqueName": "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
       "projectName": "API_.NetFramework_Project",
-      "projectPath": "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
+      "projectPath": "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
       "packagesPath": "C:\\Users\\guevr\\.nuget\\packages\\",
-      "outputPath": "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\obj\\",
+      "outputPath": "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

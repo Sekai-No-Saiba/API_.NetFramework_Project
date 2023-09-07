@@ -7,7 +7,6 @@ using System.Linq;
 namespace API_.NetFramework_Project.Controllers
 {
     [Route("api/[controller]")]
-
     [ApiController]
     public class TaskController : ControllerBase
     {
@@ -34,6 +33,19 @@ namespace API_.NetFramework_Project.Controllers
             return Ok(task);
         }
 
+        [HttpGet("completed")]
+        public ActionResult<IEnumerable<TaskTp>> GetCompletedTasks()
+        {
+            var completedTasks = tasks.Where(t => t.IsCompleted).ToList();
+            return Ok(completedTasks);
+        }
+
+        [HttpGet("incomplete")]
+        public ActionResult<IEnumerable<TaskTp>> GetIncompleteTasks()
+        {
+            var incompleteTasks = tasks.Where(t => !t.IsCompleted).ToList();
+            return Ok(incompleteTasks);
+        }
         [HttpPost]
         public ActionResult<TaskTp> CreateTask(TaskTp task)
         {
@@ -68,8 +80,13 @@ namespace API_.NetFramework_Project.Controllers
             tasks.Remove(task);
             return NoContent();
         }
+
+
+        
+
     }
 }
+   
 
 
 
