@@ -8,7 +8,7 @@ namespace TaskManagerTerminal
     public class TaskManager
     {
         private readonly HttpClient _httpClient;
-        private const string ApiBaseUrl = "https://localhost:7013/api/Task"; // Change this URL to your API's URL
+        private const string ApiBaseUrl = "https://localhost:7013/api/Task"; // My API's URL
 
         public TaskManager()
         {
@@ -29,5 +29,7 @@ namespace TaskManagerTerminal
         }
 
         // Implement methods for updating and deleting tasks
+
+
     }
 }
