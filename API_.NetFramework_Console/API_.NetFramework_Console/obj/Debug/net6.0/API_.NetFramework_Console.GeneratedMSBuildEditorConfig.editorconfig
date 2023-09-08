@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = API_.NetFramework_Console
-build_property.ProjectDir = C:\Users\guevr\source\API_.NetFramework_Console\API_.NetFramework_Console\
+build_property.ProjectDir = C:\Project_Files\Sources\API_.NetFramework_Project\API_.NetFramework_Console\API_.NetFramework_Console\
