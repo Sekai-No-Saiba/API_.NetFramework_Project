@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj": {}
+    "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj": {}
   },
   "projects": {
-    "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj": {
+    "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
+        "projectUniqueName": "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
         "projectName": "API_.NetFramework_Project",
-        "projectPath": "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
+        "projectPath": "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project.csproj",
         "packagesPath": "C:\\Users\\guevr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\guevr\\source\\API_.NetFramework_Project\\API_.NetFramework_Project\\obj\\",
+        "outputPath": "C:\\Project_Files\\Sources\\API_.NetFramework_Project\\API_.NetFramework_Project\\API_.NetFramework_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,6 +45,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
